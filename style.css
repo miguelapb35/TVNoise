@@ -14,7 +14,7 @@ h1
 @media(max-width: 450px){
 h1
 {
-    font-size: 3em;
+    font-size: 2em;
     padding-left: 20px;
     opacity: .5;
 }
