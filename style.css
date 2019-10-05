@@ -1,0 +1,33 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url(noise.jpg);
+    animation: animate .5s steps(10) infinite;
+}
+h1
+{
+    font-size: 3em;
+    color: #333;
+    opacity: .5;
+}
+@media(max-width: 450px){
+h1
+{
+    font-size: 3em;
+    padding-left: 20px;
+    opacity: .5;
+}
+}
+
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0 0;
+    }
+    100%
+    {
+        background-position: 100% 100%;
+    }
+}
